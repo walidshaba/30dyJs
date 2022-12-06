@@ -1,0 +1,15 @@
+ title,
+.color {
+    /* color: transparent; */
+    cursor:pointer;
+    background: conic-gradient (#F72F35 12%,
+            #30c5ff 12%, #30c5ff 35%,
+            #ffd700 35%, #ffd700 55%,
+            #ff69b4 55%, #ff69b4 70%,
+            #d1e231 70%, #d1e231 90%,
+            #d09ee1 90%);
+
+    background-size: 50%;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
