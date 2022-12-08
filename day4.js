@@ -1,22 +1,17 @@
-let numi =3 
-if(numi > 0)
-{
-    console.log(`${numi} is a positive number`)
+let numi = 3
+if (numi > 0) {
 }
 
 numi = -3
-if (numi > 0 )
-{
+if (numi > 0) {
     console.log(`${numi} is a poitive number `)
 }
-else 
-{
+else {
     console.log(`${numi} is a negative number `)
 }
 
 let weather = 'cloudy'
-switch(weather)
-{
+switch (weather) {
     case 'rainy':
         console.log('You Need a rain coat.')
         break
@@ -59,13 +54,13 @@ switch(weather)
 //       console.log('It is not a week day.')
 //   }
 
-  isRaining = true
+isRaining = true
 
-  isRaining 
-  ?console.log('You need a rain coat.')
-  :console.log('No need for a rain coat.')
+isRaining
+    ? console.log('You need a rain coat.')
+    : console.log('No need for a rain coat.')
 
-  //Exercises 
+//Exercises 
 
 //   let age = prompt('Enter your age')
 //   cal = 18 - age
@@ -112,10 +107,8 @@ switch(weather)
 // :console.log(`${a} is less than ${b}`)
 
 numi = prompt(`Enter a number`)
-if (numi % 2 == 0 )
-{
+if (numi % 2 == 0) {
     console.log(`${numi} is an Even Number`)
-}else
-{
+} else {
     console.log(`${numi} is an Odd Number`)
 }
