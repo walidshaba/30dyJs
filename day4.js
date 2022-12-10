@@ -8,7 +8,7 @@ if (numi > 0) {
 }
 else {
     console.log(`${numi} is a negative number `)
-}
+    }
 
 let weather = 'cloudy'
 switch (weather) {
